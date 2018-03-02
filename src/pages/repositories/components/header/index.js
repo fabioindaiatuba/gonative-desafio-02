@@ -6,6 +6,8 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import PropTypes from 'prop-types';
+import { colors } from 'styles';
+
 import styles from './styles';
 
 export default class Header extends Component {
@@ -31,7 +33,7 @@ export default class Header extends Component {
           onChangeText={repository => this.setState({ repository })}
         />
         <TouchableOpacity onPress={() => saveRepository(this.state.repository)}>
-          <Icon name="plus" size={16} color="#333333" />
+          <Icon name="plus" size={16} color={colors.darker} />
         </TouchableOpacity>
       </View>
     );

@@ -38,7 +38,6 @@ export default class Repositories extends Component {
     // AsyncStorage.clear();
 
     this.loadRepositories();
-
     this.props.navigation.setParams({
       saveRepository: this.saveRepository,
     });

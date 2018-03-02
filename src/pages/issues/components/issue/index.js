@@ -21,7 +21,7 @@ const Issue = ({ repository, issue }) => (
         <Text style={styles.infoTitle} numberOfLines={1}>{issue.title}</Text>
         <Text style={styles.infoSubtitle}>{issue.user.login}</Text>
       </View>
-      <Icon name="angle-right" size={20} color={colors.secundary} />
+      <Icon name="angle-right" size={20} color={colors.regular} />
     </View>
   </TouchableOpacity>
 );

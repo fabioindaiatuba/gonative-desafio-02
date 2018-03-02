@@ -16,7 +16,7 @@ const Repository = ({ repository, navigate }) => (
         <Text style={styles.infoTitle}>{repository.name}</Text>
         <Text style={styles.infoSubtitle}>{repository.login}</Text>
       </View>
-      <Icon name="angle-right" size={20} color={colors.background} />
+      <Icon name="angle-right" size={20} color={colors.regular} />
     </View>
   </TouchableOpacity>
 );

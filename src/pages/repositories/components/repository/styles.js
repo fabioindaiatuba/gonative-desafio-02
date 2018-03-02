@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   },
   infoSubtitle: {
     fontSize: 12,
-    color: colors.secundary,
+    color: colors.regular,
   },
 });
 

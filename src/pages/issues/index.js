@@ -9,6 +9,8 @@ import PropTypes from 'prop-types';
 import api from 'services/api';
 import Issue from './components/issue';
 import Tabs from './components/tabs';
+import { colors } from 'styles';
+
 import styles from './styles';
 
 export default class Issues extends Component {
@@ -80,7 +82,7 @@ export default class Issues extends Component {
         />
         {
           this.state.loading
-            ? <ActivityIndicator size="large" color="#999" styte={styles.loading} />
+            ? <ActivityIndicator size="large" color={colors.regular} styte={styles.loading} />
             : this.renderIssues()
         }
       </View>
