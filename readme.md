@@ -1,6 +1,6 @@
 # Desafio Módulo 02 - GoNative
 
-![imagem com a tela do sistema](https://github.com/fabioindaiatuba/gonative-desafio-02/raw/master/telas/tela1.png)
+![imagem com a tela do sistema](https://github.com/fabioindaiatuba/gonative-desafio-02/raw/master/snapshots/tela1.png)
 
 ## Funções
 
